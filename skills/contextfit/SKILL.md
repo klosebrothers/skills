@@ -99,16 +99,21 @@ Then ask:
 
 ---
 
-### Phase 5 — Deliver Fully Worked, Standalone Results
+### Phase 5 — Make a detailed plan for each selected option
+
+Ask the user if he wants a detailed plan your will follow for each option or only on of those options.
 
 For each selected option:
-- produce a **complete, standalone result**
-- no references to other options
-- ready to use without additional context
+- if a file reference (documents or code) was given, please review those files thoroughly
+- then produce a **detailed plan** of what changes your will want to make
 
-When helpful:
-- clear structure
-- brief next steps or usage notes
+---
+
+### Phase 5 — Deliver Fully Worked, Standalone Results
+
+For each plan:
+- ask the user which plan he prefers and if he sees some adjustments you should make
+- then **produce a fully worked result**
 
 ---
 
