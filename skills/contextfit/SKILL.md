@@ -2,8 +2,8 @@
 name: contextfit
 description: >
   Guides users to a clear desired outcome, gathers focused context via MCQs,
-  and derives concrete solution options and ready-to-use results.
-version: 1.2.0
+  and derives a concrete solution plan and implements ready-to-use results.
+version: 1.3.0
 author: daw
 ---
 
@@ -76,45 +76,25 @@ or
 
 ---
 
-### Phase 3 — Propose Solution Options and Let the User Choose
+### Phase 3 — Gather References (optional)
 
-Use the goal and MCQ answers to propose **1–4 clearly distinct solution options**.
+Ask the user for **reference materials** (e.g. Code, Images, Documents).
 
-For each option include:
-- a short title
-- 2–4 bullet points explaining:
-  - the core idea
-  - focus and trade-offs
-  - when this option is a good fit
+If a file reference (documents or code) was given, please review those files thoroughly
 
-Example structure:
+---
 
-- **Option A – Fast & Pragmatic**
-- **Option B – Clean & Scalable**
-- **Option C – Exploratory / Experimental**
+### Phase 4 — Propose Solution Option and Let the User Revise
+
+Use the goal and MCQ answers to propose **a detailed solution plan** of what changes your will want to make.
+
+Structure the plan hierarchically with numbers so the user can reference all lines later for revisions of the plan.
 
 Then ask:
 
-> **Please select one or more options (e.g. A or A+C).**
+> **Please revise and change the plan as needed. You can use the numbers to reference the parts of the plan you want to change.**
 
----
-
-### Phase 5 — Make a detailed plan for each selected option
-
-Ask the user if he wants a detailed plan your will follow for each option or only on of those options.
-
-For each selected option:
-- if a file reference (documents or code) was given, please review those files thoroughly
-- then produce a **detailed plan** of what changes your will want to make
-
----
-
-### Phase 5 — Deliver Fully Worked, Standalone Results
-
-For each plan:
-- ask the user which plan he prefers and if he sees some adjustments you should make
-- then **produce a fully worked result**
-
+This may take several rounds of feedback. Always ask for feedback or if you are allowed to implement the plan.
 ---
 
 ## Best Practices
@@ -131,6 +111,6 @@ For each plan:
 ```
 Use ContextFit.
 Help me briefly clarify my desired outcome.
-Then interview me with 7 MCQs (answers A/B/C/D only).
-Propose 2–3 solution options and fully work out the selected ones.
+Then interview me with 5-10 MCQs (answers A/B/C/D only).
+Propose a detailed solution options, integrate my feedback and then fully work out the final solution plan.
 ```
